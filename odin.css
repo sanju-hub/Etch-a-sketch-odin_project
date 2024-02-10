@@ -1,0 +1,14 @@
+/* Style for the container div */
+#container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Style for the grid squares */
+.grid-square {
+  width: 20px; /* Adjust the width as needed */
+  height: 20px; /* Set height equal to width to make it a square */
+  background-color: gray; /* Optional: Add background color */
+  border: 1px solid black; /* Optional: Add border */
+  margin: 1px; /* Optional: Add margin to separate squares */
+}
